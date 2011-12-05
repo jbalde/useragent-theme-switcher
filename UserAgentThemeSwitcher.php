@@ -53,7 +53,7 @@ class UserAgentThemeSwitcher {
 	 * Plugin compilation version to add news database features
 	 * @var int
 	 */
-	private $version = 250;
+	private $version = 300;
 
 
 	/**
@@ -129,6 +129,7 @@ class UserAgentThemeSwitcher {
 	public function __construct() {
 		include('BrowserUA.php');
 		include('UserAgentThemeSwitcherData.php');
+		include('BrowserList.php');
 	}//__construct
 
 
