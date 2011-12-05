@@ -1,14 +1,18 @@
 <Browsers>
 	<Browser code="chrome">
 		<Name>Google Chrome</Name>
-		<Pattern>Mozilla\/5.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko\).* Chrome\/.* Safari\/.*</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/5.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko\).* Chrome\/.* Safari\/.*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>webkit</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="rockmelt">
 		<Name>RockMelt</Name>
-		<Pattern>Mozilla\/5.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko\).* Chrome\/.* Safari\/.*</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/5.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko\).* Chrome\/.* Safari\/.*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>webkit</Tag>
 		</Tags>
@@ -18,21 +22,27 @@
 	</Browser>
 	<Browser code="safaridesktop">
 		<Name>Safari</Name>
-		<Pattern>Mozilla\/5\.0 \(.*; .*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d\.]+ Safari\/.*</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/5\.0 \(.*; .*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d\.]+ Safari\/.*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>webkit</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="firefox">
 		<Name>Firefox</Name>
-		<Pattern>Mozilla\/5\.0 \(.*\) Gecko\/.* Firefox\/.*</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/5\.0 \(.*\) Gecko\/.* Firefox\/.*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>gecko</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="safarimobile">
 		<Name>Safari Mobile</Name>
-		<Pattern>Mozilla\/5.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko\)( Version\/.*){0,1} Mobile[\/A-Z0-9]{0,}( Safari\/.*){0,1}</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/5.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko\)( Version\/.*){0,1} Mobile[\/A-Z0-9]{0,}( Safari\/.*){0,1}</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>webkit</Tag>
 			<Tag>mobile</Tag>
@@ -40,35 +50,45 @@
 	</Browser>
 	<Browser code="ie6">
 		<Name>Internet Explorer 6</Name>
-		<Pattern>Mozilla\/4\.0 \(compatible; MSIE 6\.0;.*\).*</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/4\.0 \(compatible; MSIE 6\.0;.*\).*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="ie7">
 		<Name>Internet Explorer 7</Name>
-		<Pattern>Mozilla\/4\.0 \(compatible; MSIE 7\.0;.*\).*</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/4\.0 \(compatible; MSIE 7\.0;.*\).*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="ie8">
 		<Name>Internet Explorer 8</Name>
-		<Pattern>Mozilla\/4\.0 \(compatible; MSIE 8\.0;.*\).*</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/4\.0 \(compatible; MSIE 8\.0;.*\).*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="ie9">
 		<Name>Internet Explorer 9</Name>
-		<Pattern>Mozilla\/5\.0 \(compatible; MSIE 9\.0;.*\).*</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/5\.0 \(compatible; MSIE 9\.0;.*\).*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="ie5">
 		<Name>Internet Explorer 5</Name>
-		<Pattern>^Mozilla\/4\.0 \(compatible; MSIE 5\.0.*;.*\).*$</Pattern>
+		<Patterns>
+			<Pattern>^Mozilla\/4\.0 \(compatible; MSIE 5\.0.*;.*\).*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
 		</Tags>
@@ -78,21 +98,27 @@
 	</Browser>
 	<Browser code="ie55">
 		<Name>Internet Explorer 5.5</Name>
-		<Pattern>^Mozilla\/4\.0 \(compatible; MSIE 5\.5;.*\).*$</Pattern>
+		<Patterns>
+			<Pattern>^Mozilla\/4\.0 \(compatible; MSIE 5\.5;.*\).*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="ie2">
 		<Name>Internet Explorer 2</Name>
-		<Pattern>^Mozilla\/1\.22 \(compatible; MSIE 2\.0;.*\).*$</Pattern>
+		<Patterns>
+			<Pattern>^Mozilla\/1\.22 \(compatible; MSIE 2\.0;.*\).*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="operamini">
 		<Name>Opera Mini</Name>
-		<Pattern>Opera\/.* \(.*Opera Mini\/.*\).*</Pattern>
+		<Patterns>
+			<Pattern>Opera\/.* \(.*Opera Mini\/.*\).*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>opera</Tag>
 			<Tag>mobile</Tag>
@@ -100,42 +126,54 @@
 	</Browser>
 	<Browser code="camino">
 		<Name>Camino</Name>
-		<Pattern>Mozilla\/5.0 \(.*\) Gecko\/[\d]+ Camino\/[\d\.]+ \(like Firefox\/[\d\.]+\)</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/5.0 \(.*\) Gecko\/[\d]+ Camino\/[\d\.]+ \(like Firefox\/[\d\.]+\)</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>gecko</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="operadesktop">
 		<Name>Opera</Name>
-		<Pattern>Opera\/[\d\.]+( ){0,1}\(.*\).*</Pattern>
+		<Patterns>
+			<Pattern>Opera\/[\d\.]+( ){0,1}\(.*\).*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>opera</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="iceweasel">
 		<Name>IceWeasel</Name>
-		<Pattern>Mozilla\/5.0 \(.*\) Gecko\/[\d]+ Iceweasel\/[\d\.]+ \(Debian-.*\).*</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/5.0 \(.*\) Gecko\/[\d]+ Iceweasel\/[\d\.]+ \(Debian-.*\).*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>gecko</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="ipad">
 		<Name>iPad</Name>
-		<Pattern>Mozilla\/5.0 \(iPad; .*\).*</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/5.0 \(iPad; .*\).*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>tablet</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="kindle">
 		<Name>Amazon Kindle</Name>
-		<Pattern>Mozilla\/5\.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko(.*) Version\/[\d\.]+ Kindle\/.*</Pattern>
+		<Patterns>
+			<Pattern>Mozilla\/5\.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko(.*) Version\/[\d\.]+ Kindle\/.*</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>tablet</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="wordpressweb">
 		<Name>Wordpress Web</Name>
-		<Pattern>^WordPress\/.*$</Pattern>
+		<Patterns>
+			<Pattern>^WordPress\/.*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
@@ -145,14 +183,18 @@
 	</Browser>
 	<Browser code="wordpressandroid">
 		<Name>Wordpress Android</Name>
-		<Pattern>wp-android\/(.*\)$</Pattern>
+		<Patterns>
+			<Pattern>wp-android\/(.*\)$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="googlebot">
 		<Name>GoogleBot</Name>
-		<Pattern>^Mozilla\/5\.0 \(compatible; Googlebot\/.\..; \+http:\/\/www\.google\.com\/bot\.html\)$</Pattern>
+		<Patterns>
+			<Pattern>^Mozilla\/5\.0 \(compatible; Googlebot\/.\..; \+http:\/\/www\.google\.com\/bot\.html\)$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>google</Tag>
 		</Tags>
@@ -162,7 +204,9 @@
 	</Browser>
 	<Browser code="googlebotmobile">
 		<Name>GoogleBot Mobile</Name>
-		<Pattern>\(compatible; Googlebot-Mobile\/.\..; \+http:\/\/www\.google.com\/bot.html\)$</Pattern>
+		<Patterns>
+			<Pattern>\(compatible; Googlebot-Mobile\/.\..; \+http:\/\/www\.google.com\/bot.html\)$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>google</Tag>
 			<Tag>mobile</Tag>
@@ -170,7 +214,9 @@
 	</Browser>
 	<Browser code="ie7mobile">
 		<Name>Internet Explorer Mobile 7</Name>
-		<Pattern>^.*Mozilla\/4\.0 \(compatible; MSIE 7\.0; Windows Phone OS.*\).*$</Pattern>
+		<Patterns>
+			<Pattern>^.*Mozilla\/4\.0 \(compatible; MSIE 7\.0; Windows Phone OS.*\).*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
 			<Tag>mobile</Tag>
@@ -178,70 +224,90 @@
 	</Browser>
 	<Browser code="wordpressiphone">
 		<Name>Wordpress iPhone</Name>
-		<Pattern>^wp-iphone\/.*$</Pattern>
+		<Patterns>
+			<Pattern>^wp-iphone\/.*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="wordpressipad">
 		<Name>Wordpress iPad</Name>
-		<Pattern>^WordPress .* \(iPad; iPhone OS .*\)$</Pattern>
+		<Patterns>
+			<Pattern>^WordPress .* \(iPad; iPhone OS .*\)$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="java">
 		<Name>Java</Name>
-		<Pattern>^Java\/.*$</Pattern>
+		<Patterns>
+			<Pattern>^Java\/.*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="bitacoras">
 		<Name>Bitacoras</Name>
-		<Pattern>^Bitacoras.com\/2\.0 \(http:\/\/bitacoras\.com\)$</Pattern>
+		<Patterns>
+			<Pattern>^Bitacoras.com\/2\.0 \(http:\/\/bitacoras\.com\)$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="flash">
 		<Name>Flash</Name>
-		<Pattern>^Shockwave Flash$</Pattern>
+		<Patterns>
+			<Pattern>^Shockwave Flash$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="zendcrawler">
 		<Name>Zend Crawler</Name>
-		<Pattern>^Zend_Http_Client$</Pattern>
+		<Patterns>
+			<Pattern>^Zend_Http_Client$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="wget">
 		<Name>wget</Name>
-		<Pattern>^Wget.*$</Pattern>
+		<Patterns>
+			<Pattern>^Wget.*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="powermarks">
 		<Name>Powermarks</Name>
-		<Pattern>^Mozilla\/4\.0 \(compatible; Powermarks/.*$</Pattern>
+		<Patterns>
+			<Pattern>^Mozilla\/4\.0 \(compatible; Powermarks/.*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="applepubsub">
 		<Name>Apple-PubSub</Name>
-		<Pattern>^Apple\-PubSub\/.*$</Pattern>
+		<Patterns>
+			<Pattern>^Apple\-PubSub\/.*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
 	</Browser>
 	<Browser code="alexa">
 		<Name>Alexa</Name>
-		<Pattern>^ia_archiver \(\+http:\/\/www\.alexa\.com\/site\/help\/webmasters; crawler@alexa\.com\)$</Pattern>
+		<Patterns>
+			<Pattern>^ia_archiver \(\+http:\/\/www\.alexa\.com\/site\/help\/webmasters; crawler@alexa\.com\)$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
@@ -251,7 +317,9 @@
 	</Browser>
 	<Browser code="libperl">
 		<Name>libperl</Name>
-		<Pattern>^libwww-perl\/.*$</Pattern>
+		<Patterns>
+			<Pattern>^libwww-perl\/.*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
@@ -261,7 +329,9 @@
 	</Browser>
 	<Browser code="bitly">
 		<Name>bit.ly</Name>
-		<Pattern>^bitlybot$</Pattern>
+		<Patterns>
+			<Pattern>^bitlybot$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
@@ -271,7 +341,9 @@
 	</Browser>
 	<Browser code="twitter">
 		<Name>Twitter Bot</Name>
-		<Pattern>^Twitterbot\/.*$</Pattern>
+		<Patterns>
+			<Pattern>^Twitterbot\/.*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
@@ -282,7 +354,9 @@
 	</Browser>
 	<Browser code="slurp">
 		<Name>Yahoo Slurp</Name>
-		<Pattern>^Mozilla\/5\.0 \(compatible; Yahoo\! Slurp; http:\/\/help\.yahoo\.com\/help\/us\/ysearch\/slurp\)$</Pattern>
+		<Patterns>
+			<Pattern>^Mozilla\/5\.0 \(compatible; Yahoo\! Slurp; http:\/\/help\.yahoo\.com\/help\/us\/ysearch\/slurp\)$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
@@ -292,7 +366,9 @@
 	</Browser>
 	<Browser code="firefoxmobile">
 		<Name>Firefox Mobile</Name>
-		<Pattern>^Mozilla\/5\.0 \(Android.*\) Gecko\/.* Firefox\/.*$</Pattern>
+		<Patterns>
+			<Pattern>^Mozilla\/5\.0 \(Android.*\) Gecko\/.* Firefox\/.*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>gecko</Tag>
 			<Tag>mobile</Tag>
@@ -303,7 +379,9 @@
 	</Browser>
 	<Browser code="yahoocachesystem">
 		<Name>Yahoo Cache System</Name>
-		<Pattern>^YahooCacheSystem$</Pattern>
+		<Patterns>
+			<Pattern>^YahooCacheSystem$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
 		</Tags>
@@ -313,7 +391,9 @@
 	</Browser>
 	<Browser code="blackberry">
 		<Name>Blackberry Browser</Name>
-		<Pattern>^BlackBerry.* Profile\/MIDP-.* Configuration\/CLDC-.* VendorID\/.*$</Pattern>
+		<Patterns>
+			<Pattern>^BlackBerry.* Profile\/MIDP-.* Configuration\/CLDC-.* VendorID\/.*$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>mobile</Tag>
 		</Tags>
@@ -324,7 +404,9 @@
 	</Browser>
 	<Browser code="msnbot">
 		<Name>MSNBot</Name>
-		<Pattern>^msnbot-UDiscovery\/2\.0b \( http:\/\/search\.msn\.com\/msnbot\.htm\)$</Pattern>
+		<Patterns>
+			<Pattern>^msnbot-UDiscovery\/2\.0b \( http:\/\/search\.msn\.com\/msnbot\.htm\)$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>crawler</Tag>
 		</Tags>
@@ -334,7 +416,9 @@
 	</Browser>
 	<Browser code="facebook">
 		<Name>Facebook</Name>
-		<Pattern>^facebookexternalhit\/1\.1 \( http:\/\/www\.facebook.com\/externalhit_uatext\.php\)$</Pattern>
+		<Patterns>
+			<Pattern>^facebookexternalhit\/1\.1 \( http:\/\/www\.facebook.com\/externalhit_uatext\.php\)$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>crawler</Tag>
 		</Tags>
@@ -344,7 +428,9 @@
 	</Browser>
 	<Browser code="moreoverbot">
 		<Name>Moreoverbot</Name>
-		<Pattern>^Moreoverbot\/5\.1 \( http:\/\/w\.moreover\.com; webmaster@moreover\.com\) Mozilla\/5\.0$</Pattern>
+		<Patterns>
+			<Pattern>^Moreoverbot\/5\.1 \( http:\/\/w\.moreover\.com; webmaster@moreover\.com\) Mozilla\/5\.0$</Pattern>
+		</Patterns>
 		<Tags>
 			<Tag>crawler</Tag>
 		</Tags>
