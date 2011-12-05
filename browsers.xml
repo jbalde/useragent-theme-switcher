@@ -2,7 +2,7 @@
 	<Browser code="chrome">
 		<Name>Google Chrome</Name>
 		<Patterns>
-			<Pattern>Mozilla\/5.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko\).* Chrome\/.* Safari\/.*</Pattern>
+			<Pattern>^Mozilla\/5.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko\).* Chrome\/.* Safari\/.*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>webkit</Tag>
@@ -11,7 +11,7 @@
 	<Browser code="rockmelt">
 		<Name>RockMelt</Name>
 		<Patterns>
-			<Pattern>Mozilla\/5.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko\).* Chrome\/.* Safari\/.*</Pattern>
+			<Pattern>^Mozilla\/5.0 \(Macintosh; .*\) AppleWebKit\/534\.24 \(KHTML, like Gecko\) RockMelt\/.* Chrome\/.* Safari\/.*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>webkit</Tag>
@@ -23,7 +23,7 @@
 	<Browser code="safaridesktop">
 		<Name>Safari</Name>
 		<Patterns>
-			<Pattern>Mozilla\/5\.0 \(.*; .*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d\.]+ Safari\/.*</Pattern>
+			<Pattern>^Mozilla\/5\.0 \(.*; .*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d\.]+ Safari\/.*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>webkit</Tag>
@@ -32,7 +32,7 @@
 	<Browser code="firefox">
 		<Name>Firefox</Name>
 		<Patterns>
-			<Pattern>Mozilla\/5\.0 \(.*\) Gecko\/.* Firefox\/.*</Pattern>
+			<Pattern>^Mozilla\/5\.0 \(.*\) Gecko\/.* Firefox\/.*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>gecko</Tag>
@@ -41,7 +41,7 @@
 	<Browser code="safarimobile">
 		<Name>Safari Mobile</Name>
 		<Patterns>
-			<Pattern>Mozilla\/5.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko\)( Version\/.*){0,1} Mobile[\/A-Z0-9]{0,}( Safari\/.*){0,1}</Pattern>
+			<Pattern>^Mozilla\/5.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko\)( Version\/.*){0,1} Mobile[\/A-Z0-9]{0,}( Safari\/.*){0,1}$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>webkit</Tag>
@@ -51,7 +51,7 @@
 	<Browser code="ie6">
 		<Name>Internet Explorer 6</Name>
 		<Patterns>
-			<Pattern>Mozilla\/4\.0 \(compatible; MSIE 6\.0;.*\).*</Pattern>
+			<Pattern>^Mozilla\/4\.0 \(compatible; MSIE 6\.0;.*\).*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
@@ -60,7 +60,7 @@
 	<Browser code="ie7">
 		<Name>Internet Explorer 7</Name>
 		<Patterns>
-			<Pattern>Mozilla\/4\.0 \(compatible; MSIE 7\.0;.*\).*</Pattern>
+			<Pattern>^Mozilla\/4\.0 \(compatible; MSIE 7\.0; Windows NT.*\).*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
@@ -78,7 +78,7 @@
 	<Browser code="ie9">
 		<Name>Internet Explorer 9</Name>
 		<Patterns>
-			<Pattern>Mozilla\/5\.0 \(compatible; MSIE 9\.0;.*\).*</Pattern>
+			<Pattern>^Mozilla\/5\.0 \(compatible; MSIE 9\.0;.*\).*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
@@ -87,7 +87,7 @@
 	<Browser code="ie5">
 		<Name>Internet Explorer 5</Name>
 		<Patterns>
-			<Pattern>^Mozilla\/4\.0 \(compatible; MSIE 5\.0.*;.*\).*$</Pattern>
+			<Pattern>^Mozilla\/4\.0 \(compatible; MSIE 5\.0.*\).*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
@@ -117,7 +117,7 @@
 	<Browser code="operamini">
 		<Name>Opera Mini</Name>
 		<Patterns>
-			<Pattern>Opera\/.* \(.*Opera Mini\/.*\).*</Pattern>
+			<Pattern>^Opera\/.* \(.*Opera Mini\/.*\).*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>opera</Tag>
@@ -127,7 +127,7 @@
 	<Browser code="camino">
 		<Name>Camino</Name>
 		<Patterns>
-			<Pattern>Mozilla\/5.0 \(.*\) Gecko\/[\d]+ Camino\/[\d\.]+ \(like Firefox\/[\d\.]+\)</Pattern>
+			<Pattern>^Mozilla\/5.0 \(.*\) Gecko\/[\d]+ Camino\/[\d\.]+ \(like Firefox\/[\d\.]+\)$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>gecko</Tag>
@@ -136,7 +136,7 @@
 	<Browser code="operadesktop">
 		<Name>Opera</Name>
 		<Patterns>
-			<Pattern>Opera\/[\d\.]+( ){0,1}\(.*\).*</Pattern>
+			<Pattern>^Opera\/[\d\.]+( ){0,1}\(.*\).*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>opera</Tag>
@@ -145,7 +145,7 @@
 	<Browser code="iceweasel">
 		<Name>IceWeasel</Name>
 		<Patterns>
-			<Pattern>Mozilla\/5.0 \(.*\) Gecko\/[\d]+ Iceweasel\/[\d\.]+ \(Debian-.*\).*</Pattern>
+			<Pattern>^Mozilla\/5.0 \(.*\) Gecko\/[\d]+ Iceweasel\/[\d\.]+ \(Debian-.*\).*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>gecko</Tag>
@@ -154,7 +154,7 @@
 	<Browser code="ipad">
 		<Name>iPad</Name>
 		<Patterns>
-			<Pattern>Mozilla\/5.0 \(iPad; .*\).*</Pattern>
+			<Pattern>^Mozilla\/5.0 \(iPad; .*\).*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>tablet</Tag>
@@ -163,7 +163,7 @@
 	<Browser code="kindle">
 		<Name>Amazon Kindle</Name>
 		<Patterns>
-			<Pattern>Mozilla\/5\.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko(.*) Version\/[\d\.]+ Kindle\/.*</Pattern>
+			<Pattern>^Mozilla\/5\.0 \(.*\) AppleWebKit\/.* \(KHTML, like Gecko(.*) Version\/[\d\.]+ Kindle\/.*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>tablet</Tag>
@@ -184,7 +184,7 @@
 	<Browser code="wordpressandroid">
 		<Name>Wordpress Android</Name>
 		<Patterns>
-			<Pattern>wp-android\/(.*\)$</Pattern>
+			<Pattern>^wp-android\/.*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>spider</Tag>
@@ -215,7 +215,7 @@
 	<Browser code="ie7mobile">
 		<Name>Internet Explorer Mobile 7</Name>
 		<Patterns>
-			<Pattern>^.*Mozilla\/4\.0 \(compatible; MSIE 7\.0; Windows Phone OS.*\).*$</Pattern>
+			<Pattern>^Mozilla\/4\.0 \(compatible; MSIE 7\.0; Windows Phone OS.*\).*$</Pattern>
 		</Patterns>
 		<Tags>
 			<Tag>ie</Tag>
