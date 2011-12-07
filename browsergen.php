@@ -25,6 +25,7 @@ for($i = 0; $i < count($simple->Browser); $i++) {
 
 }
 
+$browserList .= "\t\t" . 'return $browsers;' . "\n";
 $browserList .= "\t" . '}' . "\n";
 $browserList .= '}' . "\n";
 $browserList .= '?>';

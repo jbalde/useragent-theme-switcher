@@ -42,9 +42,10 @@ class BrowserList {
 		$browsers[] = new BrowserUA('firefoxmobile', 'Firefox Mobile', array('^Mozilla\/5\.0 \(Android.*\) Gecko\/.* Firefox\/.*$'), array('gecko','mobile'));
 		$browsers[] = new BrowserUA('yahoocachesystem', 'Yahoo Cache System', array('^YahooCacheSystem$'), array('spider'));
 		$browsers[] = new BrowserUA('blackberry', 'Blackberry Browser', array('^BlackBerry.* Profile\/MIDP-.* Configuration\/CLDC-.* VendorID\/.*$'), array('mobile'));
-		$browsers[] = new BrowserUA('msnbot', 'MSNBot', array('^msnbot-UDiscovery\/2\.0b \( http:\/\/search\.msn\.com\/msnbot\.htm\)$'), array('crawler'));
-		$browsers[] = new BrowserUA('facebook', 'Facebook', array('^facebookexternalhit\/1\.1 \( http:\/\/www\.facebook.com\/externalhit_uatext\.php\)$'), array('crawler'));
-		$browsers[] = new BrowserUA('moreoverbot', 'Moreoverbot', array('^Moreoverbot\/5\.1 \( http:\/\/w\.moreover\.com; webmaster@moreover\.com\) Mozilla\/5\.0$'), array('crawler'));
+		$browsers[] = new BrowserUA('msnbot', 'MSNBot', array('^msnbot-UDiscovery\/2\.0b \( http:\/\/search\.msn\.com\/msnbot\.htm\)$'), array('spider'));
+		$browsers[] = new BrowserUA('facebook', 'Facebook', array('^facebookexternalhit\/1\.1 \( http:\/\/www\.facebook.com\/externalhit_uatext\.php\)$'), array('spider'));
+		$browsers[] = new BrowserUA('moreoverbot', 'Moreoverbot', array('^Moreoverbot\/5\.1 \( http:\/\/w\.moreover\.com; webmaster@moreover\.com\) Mozilla\/5\.0$'), array('spider'));
+		return $browsers;
 	}
 }
 ?>

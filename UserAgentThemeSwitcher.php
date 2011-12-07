@@ -128,8 +128,8 @@ class UserAgentThemeSwitcher {
 	 */
 	public function __construct() {
 		include('BrowserUA.php');
-		include('UserAgentThemeSwitcherData.php');
 		include('BrowserList.php');
+		include('UserAgentThemeSwitcherData.php');
 	}//__construct
 
 

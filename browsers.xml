@@ -408,7 +408,7 @@
 			<Pattern>^msnbot-UDiscovery\/2\.0b \( http:\/\/search\.msn\.com\/msnbot\.htm\)$</Pattern>
 		</Patterns>
 		<Tags>
-			<Tag>crawler</Tag>
+			<Tag>spider</Tag>
 		</Tags>
 		<UserAgents>
 			<UserAgent>msnbot-UDiscovery/2.0b ( http://search.msn.com/msnbot.htm)</UserAgent>
@@ -420,7 +420,7 @@
 			<Pattern>^facebookexternalhit\/1\.1 \( http:\/\/www\.facebook.com\/externalhit_uatext\.php\)$</Pattern>
 		</Patterns>
 		<Tags>
-			<Tag>crawler</Tag>
+			<Tag>spider</Tag>
 		</Tags>
 		<UserAgents>
 			<UserAgent>facebookexternalhit/1.1 ( http://www.facebook.com/externalhit_uatext.php)</UserAgent>
@@ -432,7 +432,7 @@
 			<Pattern>^Moreoverbot\/5\.1 \( http:\/\/w\.moreover\.com; webmaster@moreover\.com\) Mozilla\/5\.0$</Pattern>
 		</Patterns>
 		<Tags>
-			<Tag>crawler</Tag>
+			<Tag>spider</Tag>
 		</Tags>
 		<UserAgents>
 			<UserAgent>Moreoverbot/5.1 ( http://w.moreover.com; webmaster@moreover.com) Mozilla/5.0</UserAgent>

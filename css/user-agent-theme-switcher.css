@@ -1,0 +1,21 @@
+#browsers {
+	width: 48%;
+	height: 300px;
+	float: left;
+}
+
+#filters {
+	width: 48%;
+	height: 300px;
+	float: right;
+}
+
+.uafilters img {
+	margin: 10px;
+	border: solid 1px #DFDFDF;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	z-index: 999;
+}
