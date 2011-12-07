@@ -10,25 +10,23 @@
 			<img src="icon/firefox.png" />
 			<img src="icon/chrome.png" />
 		</div>
-		<div style="width: 48%; height: 300px; border: solid 1px #000000; float: right;">
+		<div id="filters" style="width: 48%; height: 300px; border: solid 1px #000000; float: right;">
 
 		</div>
 		<script type="text/javascript">
 			jQuery(document).ready(function() {
 				jQuery("#browsers > img").draggable();
-				//var browsersImages = jQuery("#browsers > img");
-				/*browsersImages.mousedown(function() {
-					jQuery(this).style("position", "absolute");
+
+				jQuery("#filters").droppable({
+					drop: function( event, ui ) {
+						var drag = $(ui.draggable);
+						drag.css("top", 0);
+						drag.css("left", 0);
+						drag.css("position", "static");
+						drag.appendTo(this);
+					}
 				});
 
-				browsersImages.mousemove(function(e){
-					var element = jQuery(e.target)[0];
-
-					if(element.style("position") == "absolute") {
-						element.style("top", e.pageY);
-						element.style("left", e.pageX);
-					}
-				});*/
 			});
 		</script>
 	</body>
